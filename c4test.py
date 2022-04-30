@@ -43,7 +43,36 @@ if ((a>=2) or (b<=3)):
 else:
     d = b * c
 print(d)
-'''
+
 numero = 0
 resultado = 0
-while numero <= 10
+while numero <= 10:
+ resultado = 2 * numero
+ print(f'2x {numero} = {resultado}')
+ numero = numero + 1
+
+resultado = 2 + 5 / 2
+final = resultado - (resultado * (10/100))
+print(resultado)
+print(final)
+if final <= 1:
+    print("N1")
+elif final <= 2:
+    print("N2")
+elif final <= 3:
+    print("N3")
+elif final <= 4:
+    print("N1")
+elif final <= 5:
+    print("N5")
+
+contador = 0
+while (contador<=5):
+    print(contador)
+    contador = contador + 1
+
+lista = [0,5,10,15,5,10,20]
+print(lista.count(5))
+'''
+for numero in range (21):
+    print(numero, end = " ")
